@@ -98,7 +98,7 @@ public class TelaFatorial extends javax.swing.JFrame {
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
-        int n =  Integer.parseInt(txtNum.getValue().toString());
+        int n = Integer.parseInt(txtNum.getValue().toString());
         Fatorial f = new Fatorial();
         f.setValor(n);
         lblFor.setText(f.getFormula());

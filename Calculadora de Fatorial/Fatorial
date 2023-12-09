@@ -15,8 +15,7 @@ public class Fatorial {
         String s = "";
         for (int c = n; c > 1; c--){
             f *= c;
-            s += c + " x ";
-            
+            s += c + " x "; 
         }
         s += "1 = ";
         fat = f;

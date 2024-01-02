@@ -70,8 +70,6 @@ public class AdivinhacaoDeNumero extends javax.swing.JFrame {
         String f2 = "<html>Errou! Eu pensei no valor "+valor+"</html>";
         String res = (valor == num)?f1:f2;
         
-        //lblRes.setFont(new Font("Arial Black", Font.Plain, 12));
-        
         lblRes.setText(res);
     }                                       
 
